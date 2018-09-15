@@ -6,6 +6,16 @@
 	width: 50px;
 	height: auto;
 }
+#HCB_comment_box blockquote {
+    color:white;
+  }
+
+  #HCB_comment_box .submit {
+    background:none; /* Clear twitter bootstrap style. */
+    background-color:green;
+    border:1px solid white;
+    color: white;
+  }
 
 #HCB_comment_box {
 	color:white;
