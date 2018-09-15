@@ -1,0 +1,15 @@
+* {
+	background-color: #9966ff;
+}
+
+#HCB_comment_box {
+	color:white;
+	text-align: center;
+	margin-top: 15%;
+	font-size: 3em;
+	border: 3px white dotted;
+	border-radius: 70%;
+	padding: 2em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
