@@ -30,6 +30,7 @@
 }
 .comment {
 	font-size: 0.6em;
+	margin-bottom: 2em;
 }
 .hcb-comment-tb, .home-desc {
 	display: none;
