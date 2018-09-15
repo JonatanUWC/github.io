@@ -1,6 +1,11 @@
 * {
 	background-color: #9966ff;
 }
+.secret img {
+	float:right;
+	width: 50px;
+	height: auto;
+}
 
 #HCB_comment_box {
 	color:white;
