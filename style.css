@@ -31,6 +31,6 @@
 .comment {
 	font-size: 2em;
 }
-.hcb-comment-tb {
-	visibility: hidden;
+.hcb-comment-tb, .home-desc {
+	display: none;
 }
