@@ -3,7 +3,7 @@
 }
 
 
-[data-am-gallery] {
+.data-am-gallery {
 
  position: relative;
 
@@ -19,7 +19,7 @@
 
  
 
-[data-am-gallery] input[type="radio"] {
+.data-am-gallery input[type="radio"] {
 
   position: fixed;
 
@@ -29,67 +29,67 @@
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .images .image:nth-child(5) { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(5) ~ .images .image:nth-child(5) { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5) { background-color: #29acbb; }
+.data-am-gallery input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5) { background-color: #29acbb; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5):hover { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5):hover { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(4) ~ .images .image:nth-child(4) { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(4) ~ .images .image:nth-child(4) { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(4) ~ .navigation .dot:nth-child(4) { background-color: #29acbb; }
+.data-am-gallery input[type="radio"]:checked:nth-child(4) ~ .navigation .dot:nth-child(4) { background-color: #29acbb; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(4) ~ .navigation .dot:nth-child(4):hover { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(4) ~ .navigation .dot:nth-child(4):hover { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(3) ~ .images .image:nth-child(3) { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(3) ~ .images .image:nth-child(3) { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(3) ~ .navigation .dot:nth-child(3) { background-color: #29acbb; }
+.data-am-gallery input[type="radio"]:checked:nth-child(3) ~ .navigation .dot:nth-child(3) { background-color: #29acbb; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(3) ~ .navigation .dot:nth-child(3):hover { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(3) ~ .navigation .dot:nth-child(3):hover { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(2) ~ .images .image:nth-child(2) { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(2) ~ .images .image:nth-child(2) { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(2) ~ .navigation .dot:nth-child(2) { background-color: #29acbb; }
+.data-am-gallery input[type="radio"]:checked:nth-child(2) ~ .navigation .dot:nth-child(2) { background-color: #29acbb; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(2) ~ .navigation .dot:nth-child(2):hover { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(2) ~ .navigation .dot:nth-child(2):hover { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(1) ~ .images .image:nth-child(1) { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(1) ~ .images .image:nth-child(1) { opacity: 1; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(1) ~ .navigation .dot:nth-child(1) { background-color: #29acbb; }
+.data-am-gallery input[type="radio"]:checked:nth-child(1) ~ .navigation .dot:nth-child(1) { background-color: #29acbb; }
 
  
 
-[data-am-gallery] input[type="radio"]:checked:nth-child(1) ~ .navigation .dot:nth-child(1):hover { opacity: 1; }
+.data-am-gallery input[type="radio"]:checked:nth-child(1) ~ .navigation .dot:nth-child(1):hover { opacity: 1; }
 
  
 
-[data-am-gallery] .image {
+.data-am-gallery .image {
 
   position: absolute;
 
@@ -117,7 +117,7 @@
 
  
 
-[data-am-gallery] .navigation {
+.data-am-gallery .navigation {
 
   position: absolute;
 
@@ -133,7 +133,7 @@
 
  
 
-[data-am-gallery] .dot {
+.data-am-gallery .dot {
 
   display: inline-block;
 
@@ -157,7 +157,7 @@
 
  
 
-[data-am-gallery] .dot:hover { opacity: 0.8; }
+.data-am-gallery .dot:hover { opacity: 0.8; }
 
 body { margin: 0; }
 
