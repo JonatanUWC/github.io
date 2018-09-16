@@ -107,7 +107,7 @@
 
   transition: opacity 400ms ease;
 
-  background-size: cover;
+  background-size: auto;
 
   background-position: center;
 
