@@ -1,5 +1,12 @@
-html { 
-  background-color: #3F51B5;
+* {
+  background-color: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  
+  background-color: transparent;
 }
 
 .hidden {
