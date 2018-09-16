@@ -38,3 +38,11 @@
 	display: none;
 }
 
+.hcb_form a {
+	display: none!important;
+}
+
+.hcb_form label a {
+	display: inline!important;
+}
+
