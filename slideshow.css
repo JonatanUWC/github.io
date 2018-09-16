@@ -15,6 +15,12 @@ html {
   
 }
 
+.secret img {
+  float:left;
+  width: 50px;
+  height: auto;
+}
+
 .container {
   margin: 0;
   max-width: 750px;
