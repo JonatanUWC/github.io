@@ -17,7 +17,7 @@ html {
 
 .secret img {
   float:left;
-  width: 50px;
+  width: 50px !important;
   height: auto;
 }
 
