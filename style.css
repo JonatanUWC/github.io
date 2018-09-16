@@ -6,6 +6,7 @@ html, body {
 .bg {
 	background-image: url(https://i.imgur.com/mIxMZmw.jpg);
 	background-size: auto;
+	background-color: #9966ff;
 	
 }
 .secret img {
@@ -50,4 +51,6 @@ html, body {
 .hcb_form label a {
 	display: inline!important;
 }
+
+
 
