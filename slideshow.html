@@ -28,11 +28,49 @@
     <div class="hidden"><img src="https://i.imgur.com/1XRc6Ck.jpg?1"/></div>
     <div class="hidden"><img src="https://i.imgur.com/o6WXR2d.jpg?1"/></div>
     
+    <script>
+      var main = function() {
+  var paused = false;
+
+  $(".arrowR").click(function() {
+    paused = true;
+    $("#slideshow > div:first")
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo("#slideshow");
+  });
+
+  $(".arrowL").click(function() {
+    paused = true;
+    $("#slideshow > div:last")
+      .fadeIn(1000)
+      .prependTo("#slideshow")
+      .next()
+      .fadeOut(1000)
+      .end();
+  });
+
+  setInterval(function() {
+    if (paused === false) {
+      $("#slideshow > div:first")
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo("#slideshow");
+    }
+  }, 5000);
+};
+
+$(document).ready(main);
+</script>
 
   </div>
   <a href="#" class="arrowR">&gt;</a>
 </div>
-<script src="script.js"></script>
+
 
 
 </body>
