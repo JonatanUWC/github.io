@@ -9,9 +9,7 @@ html, body {
   background-color: transparent;
 }
 
-.hidden {
-  display: none;
-}
+
 
 .bg {
   background-image:url(https://i.imgur.com/xmwhZ7k.jpg);
@@ -28,10 +26,14 @@ html, body {
   height: auto;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
   margin: 0;
   max-width: 750px;
-  margin:10vh auto 0 auto;
+  margin: 10vh auto 0 auto;
 }
 
 .container > div {
@@ -47,10 +49,10 @@ html, body {
 
 #slideshow > div {
   position: absolute;
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #slideshow img {
@@ -63,7 +65,7 @@ a {
   width: 40px;
   font-size: 64px;
   display: inline-block;
-  color: #9FA8DA;
+  color: #9fa8da;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
