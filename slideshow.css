@@ -35,7 +35,7 @@ html, body {
 .container {
   margin: 0;
   min-width: 1000px;
-  margin: 10vh 0 auto 0;
+  margin: auto;
 }
 
 .container > div {
