@@ -45,8 +45,8 @@ html, body {
 #slideshow {
   margin: 0;
   position: relative;
-  width: 620px;
-  height: 250px;
+  width: 1200px;
+  height: auto;
 }
 
 #slideshow > div {
