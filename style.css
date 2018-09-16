@@ -1,11 +1,12 @@
 html, body {
 	height: auto;
+	background-color: transparent;
 }
 
 .bg {
 	background-image: url(https://i.imgur.com/mIxMZmw.jpg);
 	background-size: auto;
-	background-color: transparent;
+	
 }
 .secret img {
 	float:right;
