@@ -1,9 +1,8 @@
-* {
-	background-color: #9966ff;
-	background-image: none;
+html, body {
+	height: auto;
 }
 
-body {
+.bg {
 	background-image: url(https://i.imgur.com/mIxMZmw.jpg);
 	background-size: auto;
 	background-color: #9966ff;
