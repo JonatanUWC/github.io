@@ -6,6 +6,15 @@ html {
   display: none;
 }
 
+.bg {
+  background-image:url(https://i.imgur.com/xmwhZ7k.jpg);
+  background-size: auto;
+  
+  background-color: #9966ff;
+  
+  
+}
+
 .container {
   margin: 0;
   max-width: 750px;
