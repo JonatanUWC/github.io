@@ -11,7 +11,11 @@ html, body {
 	background-image: url(https://i.imgur.com/mIxMZmw.jpg);
 	background-size: auto;
 	background-color: #9966ff;
-	
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
 }
 .secret img {
 	float:right;
